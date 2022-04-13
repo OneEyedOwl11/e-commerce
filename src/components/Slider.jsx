@@ -1,12 +1,14 @@
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 import React from "react";
 import styled from "styled-components";
+import Fashion from "../img/Fashion.svg";
 
 const Container = styled.div`
   width: 100%;
   height: 100vh;
   display: flex;
   position: relative;
+  overflow: hidden;
 `;
 const Arrow = styled.div`
   width: 50px;
@@ -28,16 +30,18 @@ const Arrow = styled.div`
 
 const Wrapper = styled.div`
   height: 100%;
+  display: flex;
 `;
 
 const Slide = styled.div`
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   display: flex;
   align-items: center;
 `;
 
 const ImgContainer = styled.div`
+  height: 100%;
   flex: 1;
 `;
 
@@ -50,16 +54,22 @@ const Image = styled.img`
   height: 80%;
 `;
 
-const Title =styled.h1`
-
+const Title = styled.h1`
+  font-size: 70px;
 `;
 
-const Desc =styled.p`
-    
+const Desc = styled.p`
+  margin: 50px 0px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 3px;
 `;
 
-const Button =styled.button`
-    
+const Button = styled.button`
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
 `;
 
 const Slider = () => {
@@ -71,12 +81,32 @@ const Slider = () => {
       <Wrapper>
         <Slide>
           <ImgContainer>
-            <Image src="https://i.pinimg.com/originals/d8/b1/e4/d8b1e43f302319420788b06c576e9126.jpg" />
+            <Image src={Fashion} />
           </ImgContainer>
           <InfoContainer>
-              <Title>WINTER SALE</Title>
-              <Desc>30% OFF ON NEW ITEMS</Desc>
-              <Button>SHOW NOW</Button>
+            <Title>WINTER SALE</Title>
+            <Desc>30% OFF ON NEW ITEMS</Desc>
+            <Button>SHOW NOW</Button>
+          </InfoContainer>
+        </Slide>
+        <Slide>
+          <ImgContainer>
+            <Image src={Fashion} />
+          </ImgContainer>
+          <InfoContainer>
+            <Title>WINTER SALE</Title>
+            <Desc>30% OFF ON NEW ITEMS</Desc>
+            <Button>SHOW NOW</Button>
+          </InfoContainer>
+        </Slide>
+        <Slide>
+          <ImgContainer>
+            <Image src={Fashion} />
+          </ImgContainer>
+          <InfoContainer>
+            <Title>WINTER SALE</Title>
+            <Desc>30% OFF ON NEW ITEMS</Desc>
+            <Button>SHOW NOW</Button>
           </InfoContainer>
         </Slide>
       </Wrapper>
