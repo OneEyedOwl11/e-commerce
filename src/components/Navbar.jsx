@@ -71,7 +71,7 @@ const navbar = () => {
             </SearchContainer>
           </Left>
           <Center>
-            <Logo>SSERD.</Logo>
+            <Logo>SERD.</Logo>
           </Center>
           <Right>
             <MenuItem>REGISTER</MenuItem>
