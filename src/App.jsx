@@ -20,7 +20,7 @@ function App() {
         <Route exact path="/register" element={<Register/>}/>
       </Routes>
       </BrowserRouter>
-      <Home />
+      
     </>
   );
 }
