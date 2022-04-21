@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import { mobile } from "../responsive";
+import {useEffect} from "react";
+import Navbar from "../components/Navbar.jsx"
 
 const Container = styled.div`
   width: 100vw;
@@ -19,6 +22,7 @@ const Wrapper = styled.div`
   width: 25%;
   padding: 20px;
   background-color: #fff;
+  ${mobile({width: "75%"})}
 `;
 
 const Form = styled.form`
@@ -56,6 +60,10 @@ const Link = styled.a`
 `;
 
 const Login = () => {
+  useEffect(() => 
+  {
+    window.scroll(0, 0)
+  }, []);
   return (
     <Container>
       <Wrapper>

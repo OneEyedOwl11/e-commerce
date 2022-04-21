@@ -6,8 +6,13 @@ import Navbar from "../components/Navbar.jsx";
 import Newsletter from "../components/Newsletter.jsx";
 import Products from "../components/Products.jsx";
 import Slider from "../components/Slider.jsx";
+import {useEffect} from "react";
 
 const Home = () => {
+  useEffect(() => 
+  {
+    window.scroll(0, 0)
+  }, []);
   return (
     <div>
       <Announcement />
