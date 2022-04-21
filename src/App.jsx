@@ -19,6 +19,7 @@ function App() {
         <Route exact path="/productList" element={<ProductList/>}/>
         <Route exact path="/register" element={<Register/>}/>
       </Routes>
+      <Home/>
       </BrowserRouter>
       
     </>
