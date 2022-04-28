@@ -5,12 +5,12 @@ import Login from "./pages/Login";
 import Product from "./pages/Product";
 import ProductList from "./pages/ProductList";
 import Register from "./pages/Register";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route exact path="/e-commerce" element={<Home />} />
           <Route exact path="/cart" element={<Cart />} />
@@ -19,7 +19,7 @@ function App() {
           <Route exact path="/productList" element={<ProductList />} />
           <Route exact path="/register" element={<Register />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
