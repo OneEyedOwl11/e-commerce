@@ -1,21 +1,21 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://svgshare.com/i/gHT.svg",
+      img: "https://raw.githubusercontent.com/OneEyedOwl11/e-commerce/main/src/img/Popular.svg",
       title: "SUMMER SALE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "f5fafd",
     },
     {
       id: 2,
-      img: "https://svgshare.com/i/gGG.svg",
+      img: "https://raw.githubusercontent.com/OneEyedOwl11/e-commerce/main/src/img/Summer.svg",
       title: "AUTUMN COLLECTION",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fcf1ed",
     },
     {
       id: 3,
-      img: "https://svgshare.com/i/gFp.svg",
+      img: "https://raw.githubusercontent.com/OneEyedOwl11/e-commerce/main/src/img/Winter.svg",
       title: "LOUNGEWEAR LOVE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fbf0f4",
